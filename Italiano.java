@@ -1,0 +1,56 @@
+package caverna;
+
+class Italiano {
+	
+	private static final String DOMANDE[] = 
+		   {
+			"CHI SCRISSE LA DIVINA COMMEDIA?",
+			
+			"CHI SCRISSE I PROMESSI SPOSI?",
+			"\"SU QUEL RAMO DEL LAGO DI COMO...\"?",
+			"CHI TRA QUESTI SCRISSE \"M'ILLUMINO D'IMMENSO\"?",
+			"QUALE TRA QUESTE OPERE NON è DI MONTALE?",
+			"\"ESSERE O NON ESSERE...\" TRATTO DA: ",
+			"CHE LINGUA SI PARLAVA IN ITALIA?",
+			"\"IL SOLE SPLENDE COME NON HA MAI...\"?",
+			"QUALE TRA QUESTI TERMINI DERIVA DAL GRECO?",
+			"CHE TIPO DI ARTICOLO è \"IL\"?"};
+	private static final String RISPOSTE[] = 
+		   {"DANTE","PETRARCA","BOCCACCIO","MANZONI",
+				   
+			"DANTE","PETRARCA","BOCCACCIO","MANZONI",
+			"CHE VOLGE A MEZZANOTTE...","C'ERA UNA VOLTA...","CHE VOLGE A MEZZOGIORNO","CHE VOLGE ALLE 12:45",
+			"P. UNGHERETTI","M. UNGHERETTI","J. UNGHERETTI","G. UNGARETTI",
+			"OSSI DI SEPPIA","IL SABATO DEL VILLAGGIO","SATURA","XENIA",
+			"ROMEO E GIULIETTA","AMLETO","IL FANTASMA DI CANTERVILLE","PEPPA PIG",
+			"LATINO","FIORENTINO","FRANCESE","SCOZZESE",
+			"SPLESSO PRIMA...","SPLENDUTO PRIMA...","SPLESSIDO PRIMA...","QUESTA LA PASSO",
+			"TELEFONO","AD HOC","AD HONOREM","ALIAS",
+			"ARTICOLO INDETERMINATIVO","ARTICOLO DETERMINATIVO","ARTICOLO PLURALE","ARTICOLO FEMMINILE"};
+	private static final String RISPOSTA[] = 
+		   {
+			"DANTE",
+			"MANZONI",
+			"CHE VOLGE A MEZZOGIORNO",
+			"G. UNGARETTI",
+			"IL SABATO DEL VILLAGGIO",
+			"AMLETO",
+			"LATINO",
+			"QUESTA LA PASSO",
+			"TELEFONO",
+			"ARTICOLO DETERMINATIVO"};
+	
+	protected static String getDomande(int i) {
+		return DOMANDE[i];
+	}
+	
+	protected static String getRisposte(int i) {
+		return RISPOSTE[i];
+	}
+	
+	protected static String getrisposta(int i) {
+		return RISPOSTA[i];
+	}
+			
+	
+}
